@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="affirm_2" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Unknown-1" translatesAutoresizingMaskIntoConstraints="NO" id="gGw-3n-w5K">
+                                <rect key="frame" x="-237" y="0.0" width="823" height="797"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1zk-a4-uJp">
+                                <rect key="frame" x="48" y="310" width="318" height="154"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="318" id="9N9-aC-sAq"/>
+                                    <constraint firstAttribute="height" constant="154" id="SZp-Kg-ptw"/>
+                                    <constraint firstAttribute="width" secondItem="1zk-a4-uJp" secondAttribute="height" multiplier="159:77" id="sbm-Nw-r2B"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Type affirmation here..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uE5-hw-qrB">
+                                <rect key="frame" x="65" y="492" width="284" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="284" id="Etk-h3-rfZ"/>
+                                    <constraint firstAttribute="height" constant="30" id="ZYx-tQ-AIX"/>
+                                    <constraint firstAttribute="width" secondItem="uE5-hw-qrB" secondAttribute="height" multiplier="142:15" id="pb9-ZH-P3Y"/>
+                                </constraints>
+                                <color key="textColor" red="1" green="0.2527923882" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="003-SX-kvb">
+                                <rect key="frame" x="99" y="35" width="218" height="62"/>
+                                <color key="backgroundColor" red="0.96010948023230902" green="1" blue="0.33263687798704578" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="003-SX-kvb" secondAttribute="height" multiplier="109:31" id="0Ib-YP-y4P"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="218" id="WZM-J8-a77"/>
+                                    <constraint firstAttribute="height" constant="62" id="pV1-gy-UI6"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Cynthia">
+                                        <attributes>
+                                            <color key="NSColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="51" name="Courier-Bold"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <color key="highlightedColor" red="0.97802966116098367" green="1" blue="0.21364900266106124" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="shadowColor" red="0.98281825876396989" green="1" blue="0.21411353609315986" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Unknown" translatesAutoresizingMaskIntoConstraints="NO" id="ZOR-YN-ebI">
+                                <rect key="frame" x="117" y="105" width="182" height="179"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="70j-Kb-4w8"/>
+                                    <constraint firstAttribute="height" constant="179" id="7sT-wT-5D5"/>
+                                    <constraint firstAttribute="width" secondItem="ZOR-YN-ebI" secondAttribute="height" multiplier="182:179" id="lUX-ts-c2T"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tS1-Lf-jvd">
+                                <rect key="frame" x="28" y="556" width="360" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="360" id="JHr-c0-tzH"/>
+                                    <constraint firstAttribute="height" constant="40" id="MZv-yw-SPP"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="360" id="Ndc-ZS-Mwj"/>
+                                    <constraint firstAttribute="width" secondItem="tS1-Lf-jvd" secondAttribute="height" multiplier="9:1" id="Yru-OW-evB"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="zxf-EA-rau"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Courier-Bold" family="Courier" pointSize="35"/>
+                                <state key="normal" title="Print Above Now!">
+                                    <color key="titleColor" red="0.85587609359460892" green="1" blue="0.16641580118388621" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="whenMyAffirmButtonIsPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Sfo-dS-rnc"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.86632042810739129" blue="0.78530942261180292" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1zk-a4-uJp" secondAttribute="trailing" constant="48" id="3Rq-XX-DNt"/>
+                            <constraint firstItem="1zk-a4-uJp" firstAttribute="top" secondItem="ZOR-YN-ebI" secondAttribute="bottom" constant="26" id="GQh-Jn-0pL"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ZOR-YN-ebI" secondAttribute="trailing" constant="115" id="HVg-EZ-Yp5"/>
+                            <constraint firstItem="tS1-Lf-jvd" firstAttribute="top" secondItem="uE5-hw-qrB" secondAttribute="bottom" constant="34" id="I4D-YS-3qw"/>
+                            <constraint firstItem="uE5-hw-qrB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="65" id="Kdz-bA-ljw"/>
+                            <constraint firstItem="uE5-hw-qrB" firstAttribute="top" secondItem="1zk-a4-uJp" secondAttribute="bottom" constant="28" id="Opv-9V-ap4"/>
+                            <constraint firstItem="tS1-Lf-jvd" firstAttribute="centerX" secondItem="003-SX-kvb" secondAttribute="centerX" id="QhT-JG-GYX"/>
+                            <constraint firstItem="ZOR-YN-ebI" firstAttribute="top" secondItem="003-SX-kvb" secondAttribute="bottom" constant="8" id="WfO-1u-Oxc"/>
+                            <constraint firstItem="ZOR-YN-ebI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="aLl-B2-eMq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="uE5-hw-qrB" secondAttribute="trailing" constant="65" id="dUB-3h-G3E"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="tS1-Lf-jvd" secondAttribute="bottom" constant="140" id="dp3-Nw-cUm"/>
+                            <constraint firstItem="1zk-a4-uJp" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="48" id="hfz-xk-TFl"/>
+                            <constraint firstItem="tS1-Lf-jvd" firstAttribute="centerX" secondItem="ZOR-YN-ebI" secondAttribute="centerX" id="yZj-Ht-l6z"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="myAffirmLabel" destination="1zk-a4-uJp" id="A96-9F-0aZ"/>
+                        <outlet property="myAffirmTextField" destination="uE5-hw-qrB" id="AlP-Hc-tSG"/>
+                        <outlet property="myAffirmTextLabel" destination="1zk-a4-uJp" id="L7x-XO-ipZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="117.39130434782609" y="117.39130434782609"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Unknown" width="234" height="215"/>
+        <image name="Unknown-1" width="259" height="194"/>
+    </resources>
+</document>
